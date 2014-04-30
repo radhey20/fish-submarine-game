@@ -1,0 +1,69 @@
+﻿Build started 4/29/2014 6:16:26 PM.
+     1>Project "C:\RailsInstaller\DevKit\Git\rails_project\fish_submarine\lab-1\lab-1\lab-1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt assign1.cpp fish.cpp "LinkedList(1).cpp" ObjLibrary\DisplayList.cpp ObjLibrary\Material.cpp ObjLibrary\MtlLibrary.cpp ObjLibrary\MtlLibraryManager.cpp ObjLibrary\ObjModel.cpp ObjLibrary\ObjStringOperations.cpp ObjLibrary\ObjStringParsing.cpp ObjLibrary\SpriteFont.cpp ObjLibrary\Texture.cpp ObjLibrary\TextureBmp.cpp ObjLibrary\TextureManager.cpp ObjLibrary\Vector2.cpp ObjLibrary\Vector3.cpp Sleep.cpp submarine1.cpp Vector3.cpp
+         Vector3.cpp
+         submarine1.cpp
+         Sleep.cpp
+         Vector3.cpp
+         Vector2.cpp
+         TextureManager.cpp
+         TextureBmp.cpp
+         Texture.cpp
+         SpriteFont.cpp
+         ObjStringParsing.cpp
+         ObjStringOperations.cpp
+         ObjModel.cpp
+         MtlLibraryManager.cpp
+         MtlLibrary.cpp
+         Material.cpp
+         DisplayList.cpp
+         LinkedList(1).cpp
+         fish.cpp
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\fish.cpp(397): warning C4101: 'last_time' : unreferenced local variable
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\fish.cpp(396): warning C4101: 'this_time' : unreferenced local variable
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\fish.cpp(394): warning C4101: 'scor' : unreferenced local variable
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\fish.cpp(742): warning C4805: '==' : unsafe mix of type 'const float' and type 'bool' in operation
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\fish.cpp(1432): warning C4996: 'alutLoadWAVFile': was declared deprecated
+                 c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\alut.h(113) : see declaration of 'alutLoadWAVFile'
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\fish.cpp(1435): warning C4996: 'alutUnloadWAV': was declared deprecated
+                 c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\alut.h(116) : see declaration of 'alutUnloadWAV'
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\fish.cpp(1438): warning C4996: 'alutLoadWAVFile': was declared deprecated
+                 c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\alut.h(113) : see declaration of 'alutLoadWAVFile'
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\fish.cpp(1440): warning C4996: 'alutUnloadWAV': was declared deprecated
+                 c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\alut.h(116) : see declaration of 'alutUnloadWAV'
+         assign1.cpp
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\assign1.cpp(280): warning C4101: 'store' : unreferenced local variable
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\assign1.cpp(1230): warning C4552: '-' : operator has no effect; expected operator with side-effect
+         Generating Code...
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\objlibrary\vector3.h(663): warning C4715: 'Vector3::getNormalized' : not all control paths return a value
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\fish.cpp(510): warning C4715: 'fish::invisible_fish' : not all control paths return a value
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\objlibrary\vector3.h(663): warning C4715: 'Vector3::getNormalized' : not all control paths return a value
+     1>c:\railsinstaller\devkit\git\rails_project\fish_submarine\lab-1\lab-1\objlibrary\vector3.h(663): warning C4715: 'Vector3::getNormalized' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\RailsInstaller\DevKit\Git\rails_project\fish_submarine\lab-1\Debug\lab-1.exe" /INCREMENTAL /NOLOGO alut.lib OpenAl32.lib "EFX-UTIL.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\RailsInstaller\DevKit\Git\rails_project\fish_submarine\lab-1\Debug\lab-1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\RailsInstaller\DevKit\Git\rails_project\fish_submarine\lab-1\Debug\lab-1.lib" /MACHINE:X86 Debug\assign1.obj
+         Debug\fish.obj
+         "Debug\LinkedList(1).obj"
+         Debug\DisplayList.obj
+         Debug\Material.obj
+         Debug\MtlLibrary.obj
+         Debug\MtlLibraryManager.obj
+         Debug\ObjModel.obj
+         Debug\ObjStringOperations.obj
+         Debug\ObjStringParsing.obj
+         Debug\SpriteFont.obj
+         Debug\Texture.obj
+         Debug\TextureBmp.obj
+         Debug\TextureManager.obj
+         Debug\Vector2.obj
+         Debug\Vector3.obj
+         Debug\Sleep.obj
+         Debug\submarine1.obj
+         Debug\Vector3.obj
+     1>Debug\Vector3.obj : warning LNK4042: object specified more than once; extras ignored
+         lab-1.vcxproj -> C:\RailsInstaller\DevKit\Git\rails_project\fish_submarine\lab-1\Debug\lab-1.exe
+     1>Done Building Project "C:\RailsInstaller\DevKit\Git\rails_project\fish_submarine\lab-1\lab-1\lab-1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.61

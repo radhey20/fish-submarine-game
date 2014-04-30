@@ -1,0 +1,120 @@
+ObjLibrary Development Log
+==========================
+
+
+
+2012 Jan 27 (1:00)
+------------------
+
+Released to CS409
+
+
+
+2012 Jan 27 (4:30)
+------------------
+
+1. draw() no longer crashes when a material refernces an image that cannot be loaded.
+2. Added support for Tf command in MTL files
+3. Added warning for entirely-transparent material
+
+Released to CS809
+
+
+
+2012 Jan 30
+-----------
+
+1. Images now load correctly when a bad image is specified first
+
+
+
+2012 Feb 1
+----------
+
+1. Added SpriteFont.h/.cpp
+
+
+
+2012 Feb 3
+----------
+
+1. Fixed Vector.cpp constructor
+
+
+
+2012 Feb 7
+----------
+
+1. Added function to draw an ObjModel with the materials in an MTL library with a specific filename.
+
+
+
+2012 Feb 14
+-----------
+
+1. Decreased the percision of the isNormal()/isUnit() function in Vector3.  A Vector3 normalized with the normalize() (or getNormalized() ) function should now count as normalized.
+2. Fixed getDisplayList() in the ObjModel class to not include loading the texture in the display list it returns.  This makes drawing the model 5ish times faster.
+3. Added function to draw an ObjModel without activating its materials.
+
+
+
+2012 Feb 27
+-----------
+
+1. Added "#include <string>" to TextureManager.h.
+2. draw in SpriteFont no long sets shading mode to GL_FLAT.
+
+
+
+2012 Feb 28
+-----------
+
+1. Added "#include <cstdlib>" to MtlLibrary.h.
+2. Added "#include <cstring>" to TextureManager.h.
+
+
+
+2012 March 15
+-------------
+
+1. Fixed constructors in Vector.cpp to accept 0 length without crashing.
+
+
+
+2012 March 24
+-------------
+
+1. Reversed internal ordering in BoundedGrid to match C++.
+2. Added Bounded3DGrid
+
+
+
+2012 March 30
+-------------
+
+1. Reversed rotation on rotateAroundY to match rotateAroundX and rotateAroundZ.
+
+
+
+2012 April 25
+-------------
+
+1. Fiddled with sort() in BoundedArray.
+2. Added explicit typecasts to file reading in Functions.cpp.
+3. Added default bump multiplier to MtlLibrary.cpp.
+4. Changed internal constants to unsigned int in ObjModel.
+5. Removed unreachable invariant test from TextureBmp.cpp.
+6. Added explicit typecast to Vector.cpp.
+
+
+2012 May 3
+----------
+
+1. Added setSize()/setLength() with fill value to BoundedArray.
+
+
+
+
+
+
+
